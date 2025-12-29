@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>會員中心 | 一頁式設計</title>
+    <link rel="stylesheet" href="../assets/css/profile.css">
+</head>
+<body>
+    <div class="container">
+        <header class="profile-header">
+            <div class="avatar-circle">會員</div>
+            <h2 id="user-name">王小明</h2>
+            <p class="member-tag">金牌甜點控</p>
+        </header>
+
+        <div class="profile-tabs">
+            <button class="tab-btn active" onclick="openTab('info')">基本資料</button>
+            <button class="tab-btn" onclick="openTab('orders')">消費紀錄</button>
+            <button class="tab-btn" onclick="openTab('reviews')">我的評論</button>
+        </div>
+
+        <main class="profile-body">
+            <div id="info" class="tab-content active">
+                <div class="info-list">
+                    <div class="info-row"><span>電子郵件</span><p>lin@example.com</p></div>
+                    <div class="info-row"><span>聯絡電話</span><p>0912-345-678</p></div>
+                    <div class="info-row"><span>註冊日期</span><p>2025-12-29</p></div>
+                </div>
+            </div>
+
+            <div id="orders" class="tab-content">
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>日期</th>
+                            <th>品項</th>
+                            <th>金額</th>
+                        </tr>
+                    </thead>
+                    <tbody id="history-items">
+                        <tr>
+                            <td>目前尚無消費紀錄</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="reviews" class="tab-content">
+                <div class="review-item">
+                    <div class="review-header">
+                        <strong>目前尚無評論紀錄</strong>
+                        <span class="stars"></span>
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function openTab(tabId) {
+            $('.tab-content').removeClass('active');
+            $('.tab-btn').removeClass('active');
+            $('#' + tabId).addClass('active');
+            $(event.currentTarget).addClass('active');
+        }
+    </script>
+</body>
+</html>
