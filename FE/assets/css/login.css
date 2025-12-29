@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f6f2; 
+    font-family: "Microsoft JhengHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-wrapper {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.login-box {
+    background-color: #ffffff;
+    border: 2px solid #333;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.login-logo img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #5d4037;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    color: #5d4037;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; 
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #5d4037;
+}
+
+.login-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #5d4037;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.login-submit:hover {
+    background-color: #3e2723;
+    letter-spacing: 5px;
+}
+
+.login-footer {
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.login-footer a {
+    color: #8d6e63;
+    text-decoration: none;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
+
+.login-footer hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.back-home {
+    font-weight: bold;
+    color: #5d4037 !important;
+}
