@@ -5,8 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>會員中心 | 一頁式設計</title>
     <link rel="stylesheet" href="../assets/css/profile.css">
+    <link rel="stylesheet" href="../assets/css/nm.css">
 </head>
 <body>
+
+    <header class="main-header">
+        <a href="index.html" class="logo-link">
+            <img src="../assets/image/Logo.png" alt="甜點店 LOGO" class="logo-img">
+        </a>
+        <h1>甜點日常</h1>
+        <nav class="user-nav">
+            <a href="login.html" class="login-btn">會員登錄</a>
+            <div class="cart-wrapper">
+                <a href="../pages/SC.html">
+                    <img src="../assets/image/sc.jpg" class="cart-icon" alt="購物車">
+                </a>
+                <span class="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="category-nav">
+        <ul>
+            <li><a href="cake.html">蛋糕</a> </li>
+            <li><a href="bread.html">麵包</a></li>
+            <li><a href="cookie.html">餅乾</a></li>
+            <li><a href="another.html">其他</a></li>
+        </ul>
+    </nav>
+
     <div class="container">
         <header class="profile-header">
             <div class="avatar-circle">會員</div>
@@ -69,5 +96,15 @@
             $(event.currentTarget).addClass('active');
         }
     </script>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <a href="aboutus.html"><p>關於我們</p></a>
+            <a href="center.html"><p>客服中心 </p></a>
+            <a href="wherer.html"><p>門市據點</p></a>
+            <p>© 2025 甜點日常 版權所有</p>
+        </div>
+    </footer>
+    
 </body>
 </html>
