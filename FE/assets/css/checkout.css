@@ -1,0 +1,118 @@
+.checkout-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: "Microsoft JhengHei", sans-serif;
+}
+
+.checkout-layout {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* 左側表單 */
+.checkout-form {
+    flex: 2;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.form-section {
+    margin-bottom: 30px;
+}
+
+.form-section h3 {
+    color: #5d4037;
+    margin-bottom: 15px;
+    border-left: 4px solid #5d4037;
+    padding-left: 10px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* 付款選項 */
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.payment-item {
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.payment-item:hover {
+    background: #fdfaf7;
+}
+
+/* 右側摘要 */
+.order-summary-box {
+    flex: 1;
+    background: #fdfaf7;
+    padding: 25px;
+    border-radius: 12px;
+    position: sticky;
+    top: 20px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+.summary-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: #5d4037;
+    font-size: 18px;
+}
+
+.final-checkout-btn {
+    width: 100%;
+    padding: 15px;
+    background: #5d4037;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.final-checkout-btn:hover {
+    background: #3e2723;
+}
+
+@media (max-width: 768px) {
+    .checkout-layout { flex-direction: column; }
+    .order-summary-box { width: 100%; box-sizing: border-box; }
+}
