@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/nm.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../assets/JS/main.js"></script>
+</head>
+<body>
+
+        <header class="main-header">
+        <a href="index.html" class="logo-link">
+            <img src="../assets/image/Logo.png" alt="甜點店 LOGO" class="logo-img">
+        </a>
+        <h1>甜點日常</h1>
+        <nav class="user-nav">
+            <a href="login.html" class="login-btn">會員登錄</a>
+            <div class="cart-wrapper">
+                <a href="../pages/SC.html">
+                    <img src="../assets/image/sc.jpg" class="cart-icon" alt="購物車">
+                </a>
+                <span class="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="category-nav">
+        <ul>
+            <li><a href="cake.html">蛋糕</a> </li>
+            <li><a href="bread.html">麵包</a></li>
+            <li><a href="cookie.html">餅乾</a></li>
+            <li><a href="another.html">其他</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section class="hero-slider">
+            <div class="slider-container">
+                <div class="slide active">
+                    <div class="slide-image">
+                        <img src="../assets/image/cookie/2.png" alt="經典曲奇">
+                    </div>
+                    <div class="slide-content">
+                        <h3>經典巧克力餅乾</h3>
+                        <p>嚴選發酵奶油製作，口感酥脆不甜膩，是午茶的最佳夥伴。</p>
+                        <button class="view-detail-btn" onclick="location.href='cookie/2.html'">查看詳情</button>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="slide-image">
+                        <img src="../assets/image/cookie/3.png" alt="巧克力餅乾">
+                    </div>
+                    <div class="slide-content">
+                        <h3>巧克力杏仁手工餅乾</h3>
+                        <p>濃郁可可風味與杏仁碎粒的完美結合，巧克力控絕不能錯過。</p>
+                        <button class="view-detail-btn" onclick="location.href='cookie/3.html'">查看詳情</button>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="slide-image">
+                        <img src="../assets/image/cake/6.png" alt="草莓蛋糕">
+                    </div>
+                    <div class="slide-content">
+                        <h3>草莓蛋糕</h3>
+                        <p>嚴選大湖草莓，並配上鬆軟蛋糕體，愛吃草莓的你，絕對不容錯過。</p>
+                        <button class="view-detail-btn" onclick="location.href='cake/6.html'">查看詳情</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+
+        <section class="news-section">
+            <h2>最新消息</h2>
+            <article class="news-item">最新消息：薑餅人上市啦！！！</article>
+            <img src="../assets/image/cookie/7.png" alt="cookie">
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <a href="aboutus.html"><p>關於我們</p></a>
+            <a href="center.html"><p>客服中心 </p></a>
+            <a href="wherer.html"><p>門市據點</p></a>
+            <p>© 2025 甜點日常 版權所有</p>
+        </div>
+    </footer>
+
+</body>
+</html>

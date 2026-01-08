@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/center.css">
+    <link rel="stylesheet" href="../assets/css/nm.css">
+</head>
+<body>
+    <header class="main-header">
+        <a href="index.html" class="logo-link">
+            <img src="../assets/image/Logo.png" alt="甜點店 LOGO" class="logo-img">
+        </a>
+        <h1>甜點日常</h1>
+        <nav class="user-nav">
+            <a href="login.html" class="login-btn">會員登錄</a>
+            <div class="cart-wrapper">
+                <a href="../pages/SC.html">
+                    <img src="../assets/image/sc.jpg" class="cart-icon" alt="購物車">
+                </a>
+                <span class="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="category-nav">
+        <ul>
+            <li><a href="cake.html">蛋糕</a> </li>
+            <li><a href="bread.html">麵包</a></li>
+            <li><a href="cookie.html">餅乾</a></li>
+            <li><a href="another.html">其他</a></li>
+        </ul>
+    </nav>
+
+    <main class="center-container">
+        <section class="faq-list-section">
+            <h2>常見問題 FAQ</h2>
+            <div class="faq-box">
+                <div class="faq-card">
+                    <h3>Q1. 請問甜點可以冷藏多久？</h3>
+                    <p>我們的甜點皆為手工現做，建議冷藏保存 3 天內食用完畢，口感最佳。</p>
+                </div>
+                <div class="faq-card">
+                    <h3>Q2. 訂單完成後可以取消嗎？</h3>
+                    <p>由於甜點是接單後製作，如需取消請於取貨前 24 小時聯繫客服。</p>
+                </div>
+                <div class="faq-card">
+                    <h3>Q3. 是否提供外送服務？</h3>
+                    <p>目前僅提供中原大學周邊 3 公里內外送，其餘地區建議門市自取。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>聯絡我們</h2>
+            <p class="form-intro">若以上問題未解決您的疑問，請填寫下表：</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="user-name">姓名</label>
+                    <input type="text" id="user-name" placeholder="您的姓名" required>
+                </div>
+                <div class="form-group">
+                    <label for="user-email">電子郵件</label>
+                    <input type="email" id="user-email" placeholder="example@mail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">您的問題</label>
+                    <textarea id="message" rows="5" placeholder="請詳細描述您的問題..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">送出訊息</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <a href="aboutus.html"><p>關於我們</p></a>
+            <a href="center.html"><p>客服中心 </p></a>
+            <a href="wherer.html"><p>門市據點</p></a>
+            <p>© 2025 甜點日常 版權所有</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../assets/JS/main.js"></script>
+</body>
+</html>

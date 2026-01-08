@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/css/pro.css">
+    <link rel="stylesheet" href="../../assets/css/nm.css">
+</head>
+<body>
+        <header class="main-header">
+        <a href="../index.html" class="logo-link">
+            <img src="../../assets/image/Logo.png" alt="甜點店 LOGO" class="logo-img">
+        </a>
+        <h1>甜點日常</h1>
+        <nav class="user-nav">
+            <a href="../login.html" class="login-btn">會員登錄</a>
+            <div class="cart-wrapper">
+                <a href="../SC.html">
+                    <img src="../../assets/image/sc.jpg" class="cart-icon" alt="購物車">
+                </a>
+                <span class="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="category-nav">
+        <ul>
+            <li><a href="../cake.html">蛋糕</a> </li>
+            <li><a href="../bread.html">麵包</a></li>
+            <li><a href="../cookie.html">餅乾</a></li>
+            <li><a href="../another.html">其他</a></li>
+        </ul>
+    </nav>
+
+    <main class="product-container">
+        <div class="product-visuals">
+            <div class="main-image">
+                <img id="display-img" src="../../assets/image/cake/3.png" alt="商品大圖">
+            </div>
+        </div>
+
+        <div class="product-info-detail">
+            <h1 id="p-name">布丁蛋糕</h1>
+            
+            <div class="product-rating">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-text">(4.0 / 5.0)</span>
+            </div>
+
+            <p class="p-price">NT$ <span id="p-price">80</span></p>
+            
+            <div class="p-description">
+                <h3>商品說明</h3>
+                <p id="p-desc">
+                    承襲傳統工法，這款布丁蛋糕主打的是「單純卻不簡單」的雞蛋香氣。外皮呈現金黃誘人的色澤，內部組織則極其綿密且充滿彈性，壓下去還會緩緩回彈。我們堅持不添加人工香精，讓最天然的蛋香與奶香成為主角。口感濕潤、空氣感十足，每一口都是令人懷念的純樸滋味，是甜點日常中最受大小朋友歡迎的經典日常美味。
+                </p>
+            </div>
+
+            <button class="add-to-cart-btn" id="detail-add-btn" data-name="布丁蛋糕" data-price="80">
+                加入購物車
+            </button>
+        </div>
+
+        <section class="product-reviews">
+            <h3>顧客評論</h3>
+            <div class="review-item">
+                <p class="user">林**：</p>
+                <p class="comment">包裝很精緻，送禮自用兩相宜。</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <a href="../aboutus.html"><p>關於我們</p></a>
+            <a href="../center.html"><p>客服中心 </p></a>
+            <a href="../wherer.html"><p>門市據點</p></a>
+            <p>© 2025 甜點日常 版權所有</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../../assets/JS/main.js"></script>
+</body>
+</html>
