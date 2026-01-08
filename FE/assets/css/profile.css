@@ -1,0 +1,148 @@
+body {
+    background-color: #fdfaf7;
+    margin: 0;
+    font-family: "Microsoft JhengHei", sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05); 
+}
+
+.profile-header {
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.avatar-circle {
+    width: 80px;
+    height: 80px;
+    background: #5d4037;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    font-size: 20px;
+}
+
+.profile-tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    color: #8d6e63;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.tab-btn.active {
+    color: #5d4037;
+    border-bottom: 2px solid #5d4037; 
+    font-weight: bold;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px 0;
+}
+
+.tab-content.active {
+    display: block; 
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-table th {
+    text-align: left;
+    color: #5d4037;
+    padding: 10px;
+    background: #fdfaf7;
+}
+
+.cart-table td { padding: 10px; border-bottom: 1px solid #eee; }
+
+.comment-row td {
+    border-top: none;
+    padding-top: 0;
+}
+
+.static-comment-box {
+    background: #fdfaf7;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px dashed #d7ccc8;
+}
+
+.star-rating {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.star.active {
+    color: #f1c40f;
+}
+
+.star:hover {
+    color: #f39c12;
+}
+
+.comment-input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.comment-input-group input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+.static-comment-btn {
+    background-color: #8d6e63;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.static-comment-btn:hover {
+    background-color: #5d4037;
+}
+
+.review-item {
+    background: #fdfaf7;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
